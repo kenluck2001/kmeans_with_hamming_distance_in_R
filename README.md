@@ -1,4 +1,4 @@
-kmeans_with_hamming_distance_in_R
+kmeans with hamming distance in R
 =================================
 
 Kmean algorithm in R using hamming distance
@@ -18,8 +18,8 @@ data = matrix(c(Y), nrow=100, byrow=TRUE); #create a binary vector of size 100 a
 
 output = newKmeans(data, 5) #cluster the data into 5 groups
 
-#obtain the centroid
+#Obtain the centroid
 output$centroids
 
-#obtain the order of the clustered data
+#Obtain the order of the clustered data
 output$order
